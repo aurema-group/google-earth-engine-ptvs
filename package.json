@@ -1,0 +1,29 @@
+{
+  "name": "google-earth-engine-ptvs",
+  "version": "1.0.0",
+  "description": "Confidential geospatial oracle bridge connecting Google Earth Engine with the Prop Trust Verified Standard (PTVS v1.0).",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aurema-group/google-earth-engine-ptvs.git"
+  },
+  "keywords": [
+    "RWA",
+    "PTVS",
+    "GoogleEarthEngine",
+    "ConfidentialComputing",
+    "MiCA",
+    "ERC-3643",
+    "Oracle"
+  ],
+  "author": "Aurema Group / Forensics Oracle Initiative",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.4"
+  }
+}
